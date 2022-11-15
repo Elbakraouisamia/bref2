@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+aside{
+    width: 20%;
+    height: 100vh;
+    background-color: #f44336;
+    position: fixed;
+    font-family: 'Roboto', sans-serif;
+}
+
+aside h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    margin: 50px 25px;
+    color: white;
+}
+nav{
+    margin: 30px;
+}
+
+nav ul li {
+    list-style-type: none;
+    color: white;
+    padding: 15px 0;
+
+}
+
+nav ul li:hover {
+    background-color: white;
+    color:#F44336;
+
+}
+.container{
+    width: 80%;
+    margin-left: 20%;
+}
+
+header, section{
+    width: 90%;
+    margin: auto;
+}
+section,footer {
+    margin-top: 30px;
+}
+
+header h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 56px;
+    padding: 50px 0;
+}
+h2{
+    font-size: 28px;   
+    color: red;
+    margin : 20px 0;   
+}
+span{
+    display: block;
+    width: 50px;
+    height: 10px;
+    background-color: #f44336;
+    border-radius: 25px;
+}
+
+.imgBox{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.imgBox img{
+    width: 48%;
+}
+.imgBox img:hover{
+opacity: .3;   } 
+
+
+p{
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+
+.cardBox {
+    width: 100%;
+}
+.card p {
+    margin-left: 20px;
+}
+.card{
+    width: 30%;
+    float: left;
+    background-color: rgb(231, 230, 230);
+    margin-right: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.card img {
+    width: 100%;
+}
+.tableBox{
+    width: 100%;
+}
+
+.tableBox .table{
+    width: 48%;
+    float: left;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.tableBox .table ul li{
+   padding: 10px 0;
+   list-style-type: none;
+   border-bottom: 1px solid black;
+   background-color: rgb(219, 212, 212);
+}
+.tableBox .table ul .basic{
+    padding: 20px 0;
+    background-color: gray;
+    color: white;
+}
+.tableBox .table ul .pro{
+    padding: 20px 0;
+    background-color: #f44336;
+    color: white;
+}
+
+.tableBox .table ul .prix{
+    padding : 30px 0;
+    font-size: 28px;
+    border-bottom: none;
+}
+
+.tableBox .table ul button{
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+}
+.tableBox .table ul button:hover{
+    background-color: #e56f67;
+
+}
+form {
+    width: 100%;
+}
+
+input,label{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+}
+form button{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    background-color: #F44336;
+    border: none;
+    color: white;
+}
+form :hover {
+    opacity: 0,3;
+
+}
+
+
+/*ccc*/
+
+
+footer{
+    width: 100%;
+    background-color: gray;
+    overflow: hidden;
+
+}
+
+footer p{
+    float: right;
+    margin: 20px;
+}
+
+footer img{
+height: 50px;
+width: 45px;
+margin-left: 320px;
+}
+footer img:hover{
+    background-color:white;
+}
+form button:hover{
+color: black;
+
+}
+
